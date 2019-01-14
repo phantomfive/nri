@@ -29,9 +29,6 @@ public class QuestionLoader {
      * ========================================================================
 	 * @throws IOException 
 	 */
-	public static List<Question>LoadFromCSV() throws IOException{
-		return LoadFromCSV(defaultFilename);
-	}
 	public static List<Question>LoadFromCSV(String filename) throws IOException{
 		List<Question>rv = new ArrayList<Question>(100);
 		
@@ -48,6 +45,10 @@ public class QuestionLoader {
 		closeFile(s);
 		
 		return rv;
+	}
+	/**Loads the default question file*/
+	public static List<Question>LoadFromCSV() throws IOException{
+		return LoadFromCSV(defaultFilename);
 	}
 
 
