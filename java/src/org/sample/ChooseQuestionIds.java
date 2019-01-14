@@ -24,9 +24,7 @@ public class ChooseQuestionIds {
 	
 	private int chooseRandomQuestion() {
 		int max = questions.size();
-		
 		int val = rand.nextInt(max);
-		
 		return questions.get(val).question_id;
 	}
 	
