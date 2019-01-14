@@ -15,7 +15,7 @@ public class Question {
 	
 	public Question(int strand_id, String strand_name,
 			        int standard_id, String standard_name,
-			        int question_id, int difficulty) {
+			        int question_id, double difficulty) {
 		this.strand_id     = strand_id;
 		this.strand_name   = strand_name;
 		this.standard_id   = standard_id;
