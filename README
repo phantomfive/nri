@@ -1,0 +1,22 @@
++----------------+
+|APP DESCRIPTION |
++----------------+
+
+This will choose a selection of questions from a list.
+
++-----------------+
+| RUNNING THE APP |
++-----------------+
+If you have java installed on your system, then you should be able to run:
+
+$ my_great_app 5
+
+The parameter represents the number of questions to select. If a number is
+not specified, the app will default to 1.
+
+
++-------------+
+| SOURCE CODE |
++-------------+
+The code is Java. I used Eclipse to edit it, but it should work fine with
+IntelliJ or whatever editor you use. Tests are available, as well.
