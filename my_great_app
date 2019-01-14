@@ -1,0 +1,6 @@
+#!/bin/bash
+
+bash -c "cd java && java -jar questionSelector.jar $1"
+
+
+
